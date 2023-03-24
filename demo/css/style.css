@@ -105,6 +105,11 @@ img {
 .text-center {
   text-align: center;
 }
+.boximg
+{
+  border-radius: 100px;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+}
 
 .text-left {
   text-align: left;
@@ -925,6 +930,11 @@ section.home .intro {
   text-align: center;
   position: relative;
   z-index: 1;
+}
+section.home .intro img
+{
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+  border-radius: 100px
 }
 section.home .intro h1 {
   color: #FFF;
@@ -2275,7 +2285,7 @@ body.dark .blog-page-section .blog-single {
 }
 .social-icons li:nth-child(2) a:hover
 {
-  color: #d1d41b !important;
+  color: #55acee !important;
 }
 
 .social-icons li:nth-child(3) a:hover
